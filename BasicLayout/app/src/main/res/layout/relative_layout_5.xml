@@ -3,4 +3,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <View
+        android:id="@+id/vR"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="#FF0000"
+    <View
+        android:id="@+id/vY"
+        android:layout_width="128dp"
+        android:layout_height="64dp"
+        android:background="#FF0"
+        android:layout_toRightOf="@+id/vR"
+    <View
+        android:id="@+id/vG"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="#FF00FF00"
+        android:layout_below="@+id/vY"
+        android:layout_alignRight="@+id/vY"
+
+    <View
+        android:id="@+id/vB"
+        android:layout_width="128dp"
+        android:layout_height="64dp"
+        android:background="#FF0000FF"
+        android:layout_below="@+id/vG"
+        android:layout_alignLeft="@+id/vY"
+
 </RelativeLayout>
