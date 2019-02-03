@@ -28,6 +28,6 @@
         android:layout_height="64dp"
         android:background="#FF0000FF"
         android:layout_below="@+id/vG"
-        android:layout_alignLeft="@+id/vY"
+        android:layout_alignLeft="@+id/vG"
 
 </RelativeLayout>
