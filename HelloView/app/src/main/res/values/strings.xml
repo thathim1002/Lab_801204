@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HelloView</string>
+    <string name="btn_validate"> OK </string>
+</resources>

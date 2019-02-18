@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right" >
+
+        <View
+            android:id="@+id/Redbox"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:background="#FF0000" />
+
+        <View
+            android:id="@+id/Yellowbox"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:background="#FF0"
+            android:layout_toRightOf="@+id/Redbox"
+            android:layout_alignTop="@+id/Redbox"
+
+        <View
+            android:id="@+id/Greenbox"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:background="#FF00FF00"
+            android:layout_below="@+id/Yellowbox"
+            android:layout_alignLeft="@+id/Yellowbox"
+
+    </RelativeLayout>
+
+</RelativeLayout>
